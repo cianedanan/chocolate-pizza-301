@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Caladea:wght@700&family=Noto+Serif&family=Oswald:wght@700&family=Patrick+Hand&family=Yellowtail&display=swap');
+
+body{
+	margin: auto;
+	max-width: 901px;
+}
+
+nav{
+	margin-top: 20px;
+	min-width: 901;
+}
+
+.logo-container{
+	margin-left: 4px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+div.logo-container h3, div.logo-container h6{
+	margin: 0;
+	padding: 0;
+}
+
+div.logo-container h6{
+	font-family: 'Abel';
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+div.logo-container h3{
+	font-family: 'Yellowtail', cursive;
+	font-size: 40px;
+	padding: 0;
+	margin: 0;
+}
+
+div.logo-container img{
+	margin-top: 26px;
+}
+
+div.nav-container{
+	display: inline-block;
+	width: 425px;
+	margin: 0;
+	padding: 0;
+}
+
+div.icon-container{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+div.icon-container img{
+	float: right;
+	margin: 24px 0px 0px 0px;
+	padding: 1px;
+}
+
+#rss{
+	margin-left: 8px;
+}
+
+.border{
+	background-image: url('img/hr-img.png');
+	background-repeat: repeat-y repeat-y;	
+	width: 100%;
+	height: 14px;
+	margin-top: 28px;
+}
+
+#hero-header-container{
+	margin: 50px 0px 30px 0px;
+}
+
+#hero-header-container h2, #hero-header-container h4{
+	margin: 0;
+}
+
+#hero-header-container h2{
+	font-family: Oswald;
+	font-size: 46px;
+}
+
+
+#choco-header{
+	display: inline-block;
+	margin-right: 550px;
+}
+
+#print-header{
+	display: inline-block;
+}
+
+#print-header img{
+	display: inline-block;
+}
+
+#print-header h5{
+	display: inline-block;
+}
+
+#hero-header-container h5{
+	font-family: Abel;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #adafaf;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+article p{
+	font-family: 'Noto Serif', serif;
+	text-indent: 30px;
+	font-size: 12pt;
+	color: #616060;
+	margin-top: 30px;
+	line-height: 28px;
+}
+
+#checklist-container{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	background-image: url('img/list-bg.png');
+	font-family: 'Patrick Hand';
+	font-size: 24px;
+	color: rgb(92, 81, 81);
+	line-height: 31px;
+	width: 900px;
+	height: 300px;
+}
+
+#checklist-left{
+	margin-top: 34px;
+	margin-left: 60px;
+	display: inline-block;
+}
+
+#checklist-right{
+	margin-top: 34px;
+	margin-left: 50px;
+	display: inline-block;
+}
+
+input[type="checkbox"]{
+	appearance: none;
+	-webkit-appearance: none;
+	height: 12px;
+	width: 12px;
+	background-color: #fefbea;
+	border-radius: 3px;
+	border:  1px solid #b8b099;
+	cursor: pointer;
+}
+
+
+input[type="checkbox"][id="chopped"]{
+	opacity: 0;
+}
+
+#checklist-container div{
+	width: 340px;
+}
+
+#van-container{
+	margin-top: 24px;
+}
+
+
+#van-text{
+	display: inline-block;
+	width: 560px;
+	margin-left: 15px;
+}
+
+#van-container h3{
+	font-size: 24px;
+	margin:0;
+	font-family: 'Caladea';
+	font-weight: lighter;
+
+}
+
+#van-container p{
+	font-size: 12pt;
+	margin-top: 14px;
+	font-family: 'Noto Serif';
+}
+
+button{
+	margin-top: 10px;
+	float: right;
+	font-family: 'Abel';
+	font-size: 20px;
+	background-color: #bc6f58;
+	border: none;
+	color: white;
+	width: 187px;
+	height: 56px;
+}
+
+#lines{
+	margin-top: 60px;
+	width: 100%;
+	height: 45px;
+	position: relative;
+}
+
+#lines::after, #lines::before{
+	content: '';
+	position: absolute;
+	margin: auto;
+	height: 1px;
+	background-color: #ececec;
+	width: 47%;
+	top: 45%;
+}
+
+
+#lines::after{
+	left: 0;
+}
+
+#lines::before{
+	right:0;
+}
+
+#lines img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer-text{
+	font-family: 'Noto Serif';
+	font-size: 14px;
+	text-align: center;
+	color: #adafaf;
+	margin-bottom: 74px;
+
+}
